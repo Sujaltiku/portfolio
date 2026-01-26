@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sujal Prasad Singh — Computer Engineer</title>
+  <meta name="description" content="Computer Engineering student portfolio — projects, skills, and contact." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">Sujal Prasad Singh</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Open menu</span>
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="pill">Computer Engineering Student</p>
+          <h1>
+            Hi, I'm <span class="grad">Sujal Prasad Singh</span>.
+          </h1>
+          <p class="lead">
+            I'm a Computer Engineering student at <strong>Advanced College of Engineering and Management</strong>.
+            I enjoy working on <strong>machine learning</strong>, <strong>deep learning</strong>, and building practical
+            projects that solve real problems.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Sanepa-2, Lalitpur, Nepal</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Email</span>
+              <a class="meta-value link" href="mailto:singhsujal870@gmail.com">singhsujal870@gmail.com</a>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Resume</span>
+              <a class="meta-value link" href="Sujal_CV.pdf" target="_blank" type="application/pdf">View Resume ↗</a>
+            </div>
+          </div>
+
+          <div class="socials" aria-label="Social links">
+            <a class="chip" href="https://github.com/Sujaltiku" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Profile card">
+          <div class="badge">Open to Internships</div>
+
+          <div class="card">
+            <h2 class="card-title">Quick Highlights</h2>
+            <ul class="checklist">
+              <li>B.E. Computer Engineering (2022 - Present)</li>
+              <li>Skills: Python, C/C++, Deep Learning</li>
+              <li>Project: Paddy Disease Detection using YOLOv9</li>
+              <li>Certified in Python with Data Science</li>
+            </ul>
+          </div>
+
+          <div class="stat-grid">
+            <div class="stat">
+              <div class="stat-num">2+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2</div>
+              <div class="stat-label">Certificates</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>Who I am and what I'm working on.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Bio</h3>
+            <p>
+              I'm <strong>Sujal Prasad Singh</strong>, a Computer Engineering student at
+              <strong>Advanced College of Engineering and Management</strong> (ACEM).
+              I'm passionate about machine learning, computer vision, and building applications that make a difference.
+            </p>
+            <p>
+              Currently, I'm focused on <strong>deep learning</strong> and <strong>medical image analysis</strong>,
+              working on projects that apply AI to healthcare challenges.
+            </p>
+            <div class="tags">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Data Science</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Education</h3>
+            <div class="edu">
+              <div class="edu-row">
+                <div>
+                  <div class="edu-title">Bachelor of Computer Engineering</div>
+                  <div class="edu-sub">Advanced College of Engineering and Management • 2022 — Present</div>
+                </div>
+              </div>
+              <ul class="bullets">
+                <li>Focus: Machine Learning, Deep Learning, Data Science</li>
+                <li>Projects: YOLOv9 Disease Detection, Alzheimer's Classification</li>
+              </ul>
+            </div>
+
+            <div class="edu">
+              <div class="edu-row">
+                <div>
+                  <div class="edu-title">Intermediate Level (+2)</div>
+                  <div class="edu-sub">Trinity International College • 2020 — 2021</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu">
+              <div class="edu-row">
+                <div>
+                  <div class="edu-title">Secondary Education (SEE)</div>
+                  <div class="edu-sub">Gyanodaya Secondary School</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Technologies and tools I work with.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Programming</h3>
+            <div class="skill-list">
+              <div class="skill"><span>Python</span><span class="muted">Advanced</span></div>
+              <div class="skill"><span>C</span><span class="muted">Intermediate</span></div>
+              <div class="skill"><span>C++</span><span class="muted">Intermediate</span></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Tools & Software</h3>
+            <div class="skill-list">
+              <div class="skill"><span>Jupyter Notebook</span><span class="muted">Advanced</span></div>
+              <div class="skill"><span>Git</span><span class="muted">Intermediate</span></div>
+              <div class="skill"><span>LabelImg</span><span class="muted">Advanced</span></div>
+              <div class="skill"><span>Power BI</span><span class="muted">Intermediate</span></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card wide">
+          <h3>Soft Skills</h3>
+          <div class="tags">
+            <span class="tag">Communication</span>
+            <span class="tag">Teamwork</span>
+            <span class="tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Academic and personal projects I've worked on.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Paddy Disease Detection using YOLOv9</h3>
+            <p class="muted">Completed Project</p>
+            <p>
+              Developed an object detection model to identify <strong>sheath blight</strong> and <strong>brown
+                spot</strong>
+              diseases in paddy images using YOLOv9. Trained and evaluated the model using annotated datasets
+              created with LabelImg.
+            </p>
+            <div class="tags">
+              <span class="tag">YOLOv9</span>
+              <span class="tag">Object Detection</span>
+              <span class="tag">Python</span>
+              <span class="tag">LabelImg</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Alzheimer's Disease Stage Classification</h3>
+            <p class="muted">Ongoing Project</p>
+            <p>
+              Analyzing deep learning approaches in unimodal and multimodal frameworks for Alzheimer's disease
+              stage classification. Exploring approaches using <strong>MRI scans</strong> and combining
+              <strong>MRI, PET, and clinical data</strong> to improve prediction accuracy.
+            </p>
+            <div class="tags">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Medical Imaging</span>
+              <span class="tag">MRI/PET</span>
+              <span class="tag">Classification</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Want to collaborate or discuss a project?</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Send a Message</h3>
+            <form id="contactForm" class="form" novalidate>
+              <label class="field">
+                <span>Name</span>
+                <input class="input" type="text" name="name" required placeholder="Your name" />
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input class="input" type="email" name="email" required placeholder="you@example.com" />
+              </label>
+
+              <label class="field">
+                <span>Message</span>
+                <textarea class="input" name="message" rows="5" required placeholder="Write your message..."></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send</button>
+              <p class="muted small" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="card">
+            <h3>Contact Details</h3>
+            <div class="info">
+              <div class="info-row">
+                <span class="muted">Email</span>
+                <a class="link" href="mailto:singhsujal870@gmail.com">singhsujal870@gmail.com</a>
+              </div>
+              <div class="info-row">
+                <span class="muted">Phone</span>
+                <a class="link" href="tel:+9779818366220">+977 9818366220</a>
+              </div>
+              <div class="info-row">
+                <span class="muted">Location</span>
+                <span>Sanepa-2, Lalitpur, Nepal</span>
+              </div>
+              <div class="info-row">
+                <span class="muted">Availability</span>
+                <span>Internships • Projects</span>
+              </div>
+            </div>
+
+            <hr class="hr" />
+
+            <h3>Social</h3>
+            <div class="socials">
+              <a class="chip" href="https://github.com/Sujaltiku" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted small">© <span id="year"></span> Sujal Prasad Singh. Built with HTML, CSS, and JavaScript.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
